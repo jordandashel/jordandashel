@@ -1,0 +1,32 @@
+body {
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #f7d345;
+}
+h1 {
+	margin: 10px;
+	font-size: 75px;
+}
+h2 {
+	margin: 10px;
+	font-size: 50px;
+}
+h3 {
+	margin: 10px;
+	font-size: 35px;
+}
+a {
+	color: #e877ff;
+	text-decoration: none;
+}
+#main {
+	color: white;
+	padding-right: 30px;
+}
+
+.right-align {
+	/* position: absolute; */
+	/* right: 30px; */
+	clear: right;
+	float: right;
+}
