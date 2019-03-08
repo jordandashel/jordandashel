@@ -1,0 +1,7 @@
+* Make a template that the vaious HTML pages can inherit
+Lots of repition there!!
+* landing page with choice of "jordans"
+* scope out `ul` docs
+* visual art
+** loop thru all tha shit in the art folder dynamically
+* bootstrap css
