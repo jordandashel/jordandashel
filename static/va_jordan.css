@@ -1,0 +1,6 @@
+img {
+	left: 0;
+	position: fixed;
+	height: 100%;
+	image-orientation: from-image;
+}
