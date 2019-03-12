@@ -1,0 +1,28 @@
+img {
+	height: 200px;
+	width: 200px;
+}
+
+#left {
+	position: absolute;
+	top: 175px;
+	left: 120px;
+	/* height: 300px; */
+}
+#right {
+	position: absolute;
+	top: 175px;
+	right: 120px;
+	/* height: 300px; */
+}
+#center {
+	position: absolute;
+	top: 400px;
+	right: 400px;
+	/* height:300px; */
+}
+h1 {
+	/* center justify */
+	position: relative;
+	left: 30%;
+}
