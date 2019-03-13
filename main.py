@@ -29,3 +29,7 @@ def va_jordan():
 @app.route('/my-visual-work')
 def my_visual_work():
     return render_template('my_visual_work.html')
+
+@app.route('/bike-jordan')
+def bike_jordan():
+    return render_template('bike_jordan.html')

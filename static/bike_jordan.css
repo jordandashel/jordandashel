@@ -1,0 +1,10 @@
+img {
+	right: 0;
+	position: fixed;
+	height: 100%;
+	image-orientation: from-image;
+}
+h1, h2, h3 {
+	float: left;
+	clear: left;
+}
