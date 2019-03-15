@@ -33,3 +33,15 @@ def my_visual_work():
 @app.route('/bike-jordan')
 def bike_jordan():
     return render_template('bike_jordan.html')
+
+@app.route('/contact', methods=['GET', 'POST'])
+def contact():
+    if request.method == 'POST':
+        name = request.form['name']
+        email = request.form['email']
+        message = request.form['message']
+        return render_template('thanks_for_contacting.html')
+    elif request.method == 'GET':
+        return render_template('contact.html')
+
+

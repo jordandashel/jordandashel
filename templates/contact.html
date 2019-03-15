@@ -1,0 +1,16 @@
+
+<head>
+	<title>J. W. Dashel</title>
+	<link rel="stylesheet" type="text/css" href="/static/style.css">
+	<link rel="stylesheet" type="text/css" href="/static/contact.css">
+</head>
+<body>
+	<h1>Contact Me.</h1>
+
+	<form method="post" action="{{ url_for('contact') }}">
+		<input type="text" name="name" placeholder="Your name"><br />
+		<input type="email" name="email" placeholder="Your email"><br />
+		<textarea name="message" placeholder="What do you want to say?"></textarea><br />
+		<input type="submit">
+	</form>
+</body>

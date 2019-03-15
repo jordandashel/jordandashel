@@ -1,0 +1,29 @@
+form {
+	max-width: 800px;
+	text-align: center;
+	margin: 0 auto;
+
+}
+input, textarea {
+	font-size: 15px;
+	border: 0;
+	outline: 0;
+	border-radius: 8px;
+	width: 100%;
+	padding: 15px;
+	margin-top: 25px;
+	resize: none;
+}
+textarea {
+	height: 125px;
+}
+input:focus, textarea:focus {
+	box-shadow: 0 0px 2px black;
+}
+
+body {
+	padding: 60px;
+}
+p {
+	margin: 30px;
+}
