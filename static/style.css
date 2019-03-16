@@ -12,7 +12,8 @@ h1 {
 	margin-bottom: 0px;
 }
 h2 {
-	color: #999999;
+	/* color: #999999; */
+	color: white;
 	margin: 10px;
 	margin-top: 0px;
 	margin-bottom: 3px;
