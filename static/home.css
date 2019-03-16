@@ -6,8 +6,13 @@ img {
 #left {
 	position: absolute;
 	top: 175px;
-	left: 120px;
+	left: 125px;
 	/* height: 300px; */
+}
+#left-text {
+	position: absolute;
+	top: 400px;
+	left: 70px;
 }
 #right {
 	position: absolute;
@@ -15,17 +20,32 @@ img {
 	right: 120px;
 	/* height: 300px; */
 }
+#right-text {
+	position: absolute;
+	top: 400px;
+	right: 40px;
+}
 #center-right {
 	position: absolute;
 	top: 400px;
 	right: 400px;
 	/* height:300px; */
 }
+#center-right-text {
+	position: absolute;
+	top: 625px;
+	right: 300px;
+}
 #center-left {
 	position: absolute;
 	top: 400px;
 	left: 400px;
 	/* height:300px; */
+}
+#center-left-text {
+	position: absolute;
+	top: 625px;
+	left: 360px;
 }
 h1 {
 	/* position: relative; */

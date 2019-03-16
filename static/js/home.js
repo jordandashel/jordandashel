@@ -62,4 +62,3 @@ function resize(image) {
 		image.style.right = appendPx(rightOffsetValue);
 	}
 }
-
