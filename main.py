@@ -45,10 +45,10 @@ def contact():
         contact_email = ''
         with file('contact_email.txt') as f:
             contact_email = f.read().strip('\n')
-        mail.send_mail(sender=email,
+        mail.send_mail(sender=contact_email,
                 to=contact_email,
                 subject="Message from the website :)",
-                body=message)
+                body="MESSAGE FROM " + name + " at " + email + "\n" + message)
         return render_template('thanks_for_contacting.html')
     elif request.method == 'GET':
         return render_template('contact.html')
