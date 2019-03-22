@@ -56,3 +56,28 @@ body {
 	color: #3d3d3d;
 	padding-top: 40px;
 }
+
+@media screen and (max-width: 1300px) {
+	h1 {
+		display: inline-block;
+	}
+	div {
+		padding: 30px;
+		overflow: auto;
+	}
+	#center-left-text, #center-right-text, #left-text, #right-text {
+		position: static;
+		top: 30px;
+		right: 30px;
+		left: 30px;
+		/* clear: right; */
+	}
+	#center-left, #left, #right, #center-right  {
+		float: left;
+		clear: left;
+		position: absolute;
+		/* top: 0px; */
+		right: 0px;
+		left: 30px;
+    	}
+}
