@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request
+from os import listdir
 # import mail
 import google.appengine.api.mail as mail
 
@@ -30,7 +31,9 @@ def va_jordan():
 
 @app.route('/my-visual-work')
 def my_visual_work():
-    return render_template('my_visual_work.html')
+    works = listdir('static/photos/art/')
+    works.sort()
+    return render_template('my_visual_work.html', works=works)
 
 @app.route('/bike-jordan')
 def bike_jordan():

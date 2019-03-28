@@ -60,6 +60,7 @@ body {
 @media screen and (max-width: 1300px) {
 	h1 {
 		display: inline-block;
+		/* text-align: left; */
 	}
 	div {
 		padding: 30px;
@@ -75,9 +76,9 @@ body {
 	#center-left, #left, #right, #center-right  {
 		float: left;
 		clear: left;
-		position: absolute;
-		/* top: 0px; */
+		position: static;
+		top: 0px;
 		right: 0px;
-		left: 30px;
+		left: 0px;
     	}
 }

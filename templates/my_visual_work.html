@@ -6,7 +6,28 @@
 <body>
 	<div id="main">
 		<h1><em>MY VISUAL ART</em></h1>
-		<h2>jumpman</h2>
-		<img src="/static/photos/art/jumpman.png" alt="jumpman">
+		{% for f in works %}
+			<div class="artwork">
+				<h2>{{f.split('.')[1].replace('_', ' ')}}</h2>
+				<a href="/static/photos/art/{{f}}">
+					<img src="/static/photos/art/{{f}}" alt="{{f.split('.')[1]}}">
+				</a>
+			</div>
+		{% endfor %}
+		<!-- <div class="artwork"> -->
+		<!-- <h2>jumpman</h2> -->
+		<!-- <img src="/static/photos/art/jumpman.png" alt="jumpman"> -->
+		<!-- </div> -->
+
+		<!-- <div class="artwork"> -->
+		<!-- <h2>pretty blue</h2> -->
+		<!-- <img src="/static/photos/art/pretty_blue.jpg" alt="jumpman"> -->
+		<!-- </div> -->
+
+
+		<!-- <div class="artwork"> -->
+		<!-- <h2>spark</h2> -->
+		<!-- <img src="/static/photos/art/spark.jpg" alt="jumpman"> -->
+		<!-- </div> -->
 	</div>
 </body>
