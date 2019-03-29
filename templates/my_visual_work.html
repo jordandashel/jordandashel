@@ -1,9 +1,9 @@
-<head>
-	<title>J. W. Dashel</title>
-	<link rel="stylesheet" type="text/css" href="/static/style.css">
+{% extends "base_template.html" %}
+{% block title %}Jordan's Visual Art{% endblock %}
+{% block head %}
 	<link rel="stylesheet" type="text/css" href="/static/my_work.css">
-</head>
-<body>
+{% endblock %}
+{% block body %}
 	<div id="main">
 		<h1><em>MY VISUAL ART</em></h1>
 		{% for f in works %}
@@ -14,20 +14,5 @@
 				</a>
 			</div>
 		{% endfor %}
-		<!-- <div class="artwork"> -->
-		<!-- <h2>jumpman</h2> -->
-		<!-- <img src="/static/photos/art/jumpman.png" alt="jumpman"> -->
-		<!-- </div> -->
-
-		<!-- <div class="artwork"> -->
-		<!-- <h2>pretty blue</h2> -->
-		<!-- <img src="/static/photos/art/pretty_blue.jpg" alt="jumpman"> -->
-		<!-- </div> -->
-
-
-		<!-- <div class="artwork"> -->
-		<!-- <h2>spark</h2> -->
-		<!-- <img src="/static/photos/art/spark.jpg" alt="jumpman"> -->
-		<!-- </div> -->
 	</div>
-</body>
+{% endblock %}

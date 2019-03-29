@@ -1,9 +1,9 @@
-<head>
-	<title>J. W. Dashel</title>
-	<link rel="stylesheet" type="text/css" href="/static/style.css">
+{% extends "base_template.html" %}
+{% block title %}Sax Jordan{% endblock %}
+{% block head %}
 	<link rel="stylesheet" type="text/css" href="/static/my_work.css">
-</head>
-<body>
+{% endblock %}
+{% block body %}
 	<div id="main">
 		<h1>Sonic Samples</h1>
 
@@ -17,4 +17,4 @@
 			<source src="/static/recordings/etude9.mp3" type="audio/mpeg">
 		</audio>
 	</div>
-</body>
+{% endblock %}

@@ -1,9 +1,9 @@
-<head>
-	<title>J. W. Dashel</title>
-	<link rel="stylesheet" type="text/css" href="/static/style.css">
+{% extends "base_template.html" %}
+{% block title %}Visual Artist Jordan{% endblock %}
+{% block head %}
 	<link rel="stylesheet" type="text/css" href="/static/va_jordan.css">
-</head>
-<body>
+{% endblock %}
+{% block body %}
 	<img src="/static/photos/jacket.png" alt="Jordan in a Jacket">
 	<div id="main">
 		<h1 class="right-align">Jordan W. Dashel</h1>
@@ -11,4 +11,4 @@
 		<h3 class="right-align"><a href="/my-visual-work">See my work.</a></h3>
 		<h3 class="right-align"><a href="/contact">Contact me.</a></h3>
 	</div>
-</body>
+{% endblock %}

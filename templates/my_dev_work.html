@@ -1,9 +1,9 @@
-<head>
-	<title>J. W. Dashel</title>
-	<link rel="stylesheet" type="text/css" href="/static/style.css">
+{% extends "base_template.html" %}
+{% block title %}Jordan's Dev Work{% endblock %}
+{% block head %}
 	<link rel="stylesheet" type="text/css" href="/static/my_work.css">
-</head>
-<body>
+{% endblock %}
+{% block body %}
 	<div id="main">
 		<h1>My Dev Work</h1>
 		<div class="text">
@@ -71,4 +71,4 @@
 			GCP :)</p> 
 		</div> 
 	</div>
-</body>
+{% endblock %}

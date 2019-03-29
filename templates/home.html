@@ -1,10 +1,11 @@
-<head>
-	<title>J. W. Dashel</title>
-	<link rel="stylesheet" type="text/css" href="/static/style.css">
+{% extends "base_template.html" %}
+
+{% block head %}
 	<link rel="stylesheet" type="text/css" href="/static/home.css">
 	<script src="/static/js/home.js"></script>
-</head>
-<body>
+{% endblock %}
+
+{% block body %}
 	<div>
 	<h1>Jordan</h1>
 	<h1>W.</h1>
@@ -39,4 +40,5 @@
 		</a>
 	</div>
 
-</body>
+
+{% endblock %}

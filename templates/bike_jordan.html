@@ -1,9 +1,9 @@
-<head>
-	<title>J. W. Dashel</title>
-	<link rel="stylesheet" type="text/css" href="/static/style.css">
+{% extends "base_template.html" %}
+{% block title %}Bike Jordan{% endblock %}
+{% block head %}
 	<link rel="stylesheet" type="text/css" href="/static/bike_jordan.css">
-</head>
-<body>
+{% endblock %}
+{% block body %}
 	<img src="/static/photos/bike.png" alt="Jordan in Seattle">
 	<div id="main">
 		<h1>Jordan W. Dashel</h1>
@@ -12,4 +12,4 @@
 		<h3><a href="https://www.instagram.com/jo_dshl/">See my ride.</a></h3>
 		<h3><a href="/contact">Contact me.</a></h3>
 	</div>
-</body>
+{% endblock %}
